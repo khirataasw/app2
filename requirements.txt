@@ -1,0 +1,9 @@
+# Django==3.2.10
+Django==4.2.7
+djangorestframework==3.12.4
+django-filter==2.4.0
+django-cors-headers==3.10.0
+djoser
+djangorestframework-simplejwt
+mysqlclient==2.1.0
+
