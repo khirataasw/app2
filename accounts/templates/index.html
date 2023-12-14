@@ -10,7 +10,7 @@
 
 {% block content %}
 {% if user.is_authenticated %}
-<div class="h2">Welcome {{ user.first_name }} {{ user.last_name }}</div>
+<div class="h2">ようこそ {{ user.first_name }} {{ user.last_name }}</div>
 <!-- ↓追加 -->
 <a href="{% url 'accounts:logout' %}" class="btn btn-primary">Logout</a> 
 {% else %}
